@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import api from "../api";
-/*import Note from "../components/Note"
-import "../styles/Home.css"*/
+import Note from "../components/Note"
+import "../styles/Home.css"
 
 function Home() {
     const [notes, setNotes] = useState([]);
@@ -79,7 +79,7 @@ function Home() {
                 <input type="submit" value="Submit"></input>
             </form>
         </div>
-    );*/
+    );
 
     return <div>Home</div>
 }
